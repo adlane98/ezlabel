@@ -14,7 +14,7 @@ find_package(Qt6 COMPONENTS
         Widgets
         REQUIRED)
 
-add_executable(ezlabel main.cpp)
+add_executable(ezlabel main.cpp MainWindow.cpp MainWindow.h)
 target_link_libraries(ezlabel
         Qt::Core
         Qt::Gui
